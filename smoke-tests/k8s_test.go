@@ -9,10 +9,10 @@ import (
 
 func TestCart(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "Shopping Cart Suite")
+	RunSpecs(t, "Kubernetes Test Suite")
 }
 
-var _ = Describe("Shopping cart", func() {
+var _ = Describe("K8S Cluster", func() {
 	Context("initially", func() {
 		It("has 3 namespaces", func() {
 			// TODO
